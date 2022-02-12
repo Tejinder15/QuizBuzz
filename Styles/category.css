@@ -1,0 +1,31 @@
+@import url("./utility.css");
+@import url("./header.css");
+
+.category-heading {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  column-gap: 0.6rem;
+  row-gap: 24px;
+  justify-items: center;
+}
+
+.basic-card {
+  max-width: 280px;
+}
+
+.basic-card-actions {
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.play-btn {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  text-align: center;
+  background-color: var(--logout-color);
+  color: white;
+}
