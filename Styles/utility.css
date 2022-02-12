@@ -1,0 +1,11 @@
+:root {
+  --focus-color: #a2d2ff;
+  --option-border-color: #adb5bd;
+  --quiz-background-color: #f0efeb;
+  --logout-color: #3a86ff;
+}
+
+body {
+  margin: 0;
+  background-color: var(--quiz-background-color);
+}
