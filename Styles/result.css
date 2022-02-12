@@ -1,0 +1,46 @@
+@import url("./utility.css");
+@import url("./header.css");
+
+.result-head {
+  text-align: center;
+}
+
+.result-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.total-score {
+  text-align: center;
+}
+
+ol {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+li {
+  border-bottom: 1px solid black;
+  padding: 0.3rem 0 0 0.3rem;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+.result-footer {
+  text-align: center;
+  margin-top: 1.4rem;
+}
+
+.exit-btn {
+  padding: 0.6rem 1.4rem;
+  text-decoration: none;
+  background-color: var(--exit-color);
+  color: black;
+  border-radius: 4px;
+}
