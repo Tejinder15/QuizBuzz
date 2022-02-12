@@ -39,7 +39,6 @@ li {
 
 .exit-btn {
   padding: 0.6rem 1.4rem;
-  text-decoration: none;
   background-color: var(--exit-color);
   color: black;
   border-radius: 4px;
