@@ -1,0 +1,32 @@
+@import url("./utility.css");
+@import url("./header.css");
+
+.hero {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Images/silicon_valley.jpg") no-repeat center/cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  overflow: hidden;
+}
+
+.play-container {
+  text-align: center;
+}
+
+.play-container h2 {
+  font-size: 2.4rem;
+  color: white;
+}
+
+.play-btn {
+  width: 4rem;
+  padding: 0.6rem 1rem;
+  background-color: var(--logout-color);
+  color: white;
+  display: inline-block;
+}
