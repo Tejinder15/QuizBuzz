@@ -4,7 +4,7 @@ QuizBuzz is a Site For Playing Interactive quiz games.
 
 **This Respository Contains the PO screens.**
 
-## Tecnologies Used
+## Technologies Used
 
 - HTML
 - CSS
